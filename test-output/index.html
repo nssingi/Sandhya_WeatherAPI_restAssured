@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\sandh\eclipse-workspace\sandhya-restassured\src\test\java\WeatherAPITest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 1 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkNewYorkUrl">checkNewYorkUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkBase">checkBase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkCloudsAll">checkCloudsAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkCod">checkCod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkCoordLatitude">checkCoordLatitude</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkCoordLongitude">checkCoordLongitude</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkDt">checkDt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkID">checkID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkMainHumidity">checkMainHumidity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkMainPressure">checkMainPressure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkMainTemp">checkMainTemp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkMainTempMax">checkMainTempMax</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkMainTempMin">checkMainTempMin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkName">checkName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkSysCountry">checkSysCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkSysId">checkSysId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkSysMessage">checkSysMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkSysSunrise">checkSysSunrise</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkSysSunset">checkSysSunset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkSysType">checkSysType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkVisibility">checkVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkWhetherDesc">checkWhetherDesc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkWhetherIcon">checkWhetherIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkWhetherid">checkWhetherid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkWhethermain">checkWhethermain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkWindDeg">checkWindDeg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sandhya_restassured.sandhya_restassured.WeatherServicesTest" hash-for-method="checkWindSpeed">checkWindSpeed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sandhya_restassured.sandhya_restassured.WeatherServicesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNewYorkUrl">
+                  </a> <!-- checkNewYorkUrl -->
+                  <span class="method-name">checkNewYorkUrl</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path name doesn&apos;t match.
+Expected: is &quot;New york&quot;
+  Actual: London
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at sandhya_restassured.sandhya_restassured.WeatherServicesTest.checkNewYorkUrl(WeatherServicesTest.java:234)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sandhya_restassured.sandhya_restassured.WeatherServicesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBase">
+                  </a> <!-- checkBase -->
+                  <span class="method-name">checkBase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCloudsAll">
+                  </a> <!-- checkCloudsAll -->
+                  <span class="method-name">checkCloudsAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCod">
+                  </a> <!-- checkCod -->
+                  <span class="method-name">checkCod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCoordLatitude">
+                  </a> <!-- checkCoordLatitude -->
+                  <span class="method-name">checkCoordLatitude</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCoordLongitude">
+                  </a> <!-- checkCoordLongitude -->
+                  <span class="method-name">checkCoordLongitude</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDt">
+                  </a> <!-- checkDt -->
+                  <span class="method-name">checkDt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkID">
+                  </a> <!-- checkID -->
+                  <span class="method-name">checkID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMainHumidity">
+                  </a> <!-- checkMainHumidity -->
+                  <span class="method-name">checkMainHumidity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMainPressure">
+                  </a> <!-- checkMainPressure -->
+                  <span class="method-name">checkMainPressure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMainTemp">
+                  </a> <!-- checkMainTemp -->
+                  <span class="method-name">checkMainTemp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMainTempMax">
+                  </a> <!-- checkMainTempMax -->
+                  <span class="method-name">checkMainTempMax</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMainTempMin">
+                  </a> <!-- checkMainTempMin -->
+                  <span class="method-name">checkMainTempMin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkName">
+                  </a> <!-- checkName -->
+                  <span class="method-name">checkName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSysCountry">
+                  </a> <!-- checkSysCountry -->
+                  <span class="method-name">checkSysCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSysId">
+                  </a> <!-- checkSysId -->
+                  <span class="method-name">checkSysId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSysMessage">
+                  </a> <!-- checkSysMessage -->
+                  <span class="method-name">checkSysMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSysSunrise">
+                  </a> <!-- checkSysSunrise -->
+                  <span class="method-name">checkSysSunrise</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSysSunset">
+                  </a> <!-- checkSysSunset -->
+                  <span class="method-name">checkSysSunset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSysType">
+                  </a> <!-- checkSysType -->
+                  <span class="method-name">checkSysType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkVisibility">
+                  </a> <!-- checkVisibility -->
+                  <span class="method-name">checkVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWhetherDesc">
+                  </a> <!-- checkWhetherDesc -->
+                  <span class="method-name">checkWhetherDesc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWhetherIcon">
+                  </a> <!-- checkWhetherIcon -->
+                  <span class="method-name">checkWhetherIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWhetherid">
+                  </a> <!-- checkWhetherid -->
+                  <span class="method-name">checkWhetherid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWhethermain">
+                  </a> <!-- checkWhethermain -->
+                  <span class="method-name">checkWhethermain</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWindDeg">
+                  </a> <!-- checkWindDeg -->
+                  <span class="method-name">checkWindDeg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWindSpeed">
+                  </a> <!-- checkWindSpeed -->
+                  <span class="method-name">checkWindSpeed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sandh\eclipse-workspace\sandhya-restassured\src\test\java\WeatherAPITest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sandhya_restassured.sandhya_restassured.WeatherServicesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkID')
+data.setCell(0, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(0, 3, 1536);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkNewYorkUrl')
+data.setCell(1, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(1, 3, 984);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkCoordLongitude')
+data.setCell(2, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(2, 3, 137);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkWhethermain')
+data.setCell(3, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(3, 3, 125);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkStatusCode')
+data.setCell(4, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(4, 3, 101);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkName')
+data.setCell(5, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(5, 3, 78);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkSysCountry')
+data.setCell(6, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(6, 3, 78);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkSysMessage')
+data.setCell(7, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(7, 3, 70);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkSysId')
+data.setCell(8, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(8, 3, 63);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkVisibility')
+data.setCell(9, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(9, 3, 63);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkCod')
+data.setCell(10, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(10, 3, 63);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkMainTemp')
+data.setCell(11, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(11, 3, 63);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkWhetherDesc')
+data.setCell(12, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(12, 3, 63);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkWindSpeed')
+data.setCell(13, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(13, 3, 63);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkDt')
+data.setCell(14, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(14, 3, 62);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkCoordLatitude')
+data.setCell(15, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(15, 3, 62);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkSysType')
+data.setCell(16, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(16, 3, 62);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkMainTempMin')
+data.setCell(17, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(17, 3, 62);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkBase')
+data.setCell(18, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(18, 3, 62);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkWhetherIcon')
+data.setCell(19, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(19, 3, 62);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkMainTempMax')
+data.setCell(20, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(20, 3, 47);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkWhetherid')
+data.setCell(21, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(21, 3, 47);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkSysSunrise')
+data.setCell(22, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(22, 3, 47);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkMainPressure')
+data.setCell(23, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(23, 3, 47);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkCloudsAll')
+data.setCell(24, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(24, 3, 47);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkSysSunset')
+data.setCell(25, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(25, 3, 47);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkWindDeg')
+data.setCell(26, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(26, 3, 47);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkMainHumidity')
+data.setCell(27, 2, 'sandhya_restassured.sandhya_restassured.WeatherServicesTest')
+data.setCell(27, 3, 47);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sandhya_restassured.sandhya_restassured.WeatherServicesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">6864 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkID</span>
+                <span class="method-start">6968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkName</span>
+                <span class="method-start">8504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCod</span>
+                <span class="method-start">8597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkBase</span>
+                <span class="method-start">8660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkVisibility</span>
+                <span class="method-start">8722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDt</span>
+                <span class="method-start">8785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCoordLongitude</span>
+                <span class="method-start">8863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCoordLatitude</span>
+                <span class="method-start">9000 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkWhethermain</span>
+                <span class="method-start">9062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkWhetherid</span>
+                <span class="method-start">9187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkWhetherDesc</span>
+                <span class="method-start">9234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkWhetherIcon</span>
+                <span class="method-start">9297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMainTemp</span>
+                <span class="method-start">9359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMainPressure</span>
+                <span class="method-start">9437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMainHumidity</span>
+                <span class="method-start">9484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMainTempMin</span>
+                <span class="method-start">9547 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMainTempMax</span>
+                <span class="method-start">9609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkWindSpeed</span>
+                <span class="method-start">9656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkWindDeg</span>
+                <span class="method-start">9734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCloudsAll</span>
+                <span class="method-start">9797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSysType</span>
+                <span class="method-start">9844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSysId</span>
+                <span class="method-start">9906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSysMessage</span>
+                <span class="method-start">9969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSysCountry</span>
+                <span class="method-start">10040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSysSunrise</span>
+                <span class="method-start">10118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSysSunset</span>
+                <span class="method-start">10165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkNewYorkUrl</span>
+                <span class="method-start">10212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">11805 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

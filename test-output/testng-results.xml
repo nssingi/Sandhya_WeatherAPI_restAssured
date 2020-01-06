@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="28" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4958" started-at="2020-01-06T02:31:30Z" finished-at="2020-01-06T02:31:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4958" started-at="2020-01-06T02:31:30Z" finished-at="2020-01-06T02:31:35Z">
+      <class name="sandhya_restassured.sandhya_restassured.WeatherServicesTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="beforeSuite" is-config="true" duration-ms="6582" started-at="2020-01-05T21:31:24Z" finished-at="2020-01-05T21:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkStatusCode" duration-ms="101" started-at="2020-01-05T21:31:31Z" finished-at="2020-01-05T21:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkID()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkID" duration-ms="1536" started-at="2020-01-05T21:31:31Z" finished-at="2020-01-05T21:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkID -->
+        <test-method status="PASS" signature="checkName()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkName" duration-ms="78" started-at="2020-01-05T21:31:32Z" finished-at="2020-01-05T21:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkName -->
+        <test-method status="PASS" signature="checkCod()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkCod" duration-ms="63" started-at="2020-01-05T21:31:32Z" finished-at="2020-01-05T21:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCod -->
+        <test-method status="PASS" signature="checkBase()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkBase" duration-ms="62" started-at="2020-01-05T21:31:32Z" finished-at="2020-01-05T21:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBase -->
+        <test-method status="PASS" signature="checkVisibility()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkVisibility" duration-ms="63" started-at="2020-01-05T21:31:32Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVisibility -->
+        <test-method status="PASS" signature="checkDt()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkDt" duration-ms="62" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDt -->
+        <test-method status="PASS" signature="checkCoordLongitude()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkCoordLongitude" duration-ms="137" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCoordLongitude -->
+        <test-method status="PASS" signature="checkCoordLatitude()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkCoordLatitude" duration-ms="62" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCoordLatitude -->
+        <test-method status="PASS" signature="checkWhethermain()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkWhethermain" duration-ms="125" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWhethermain -->
+        <test-method status="PASS" signature="checkWhetherid()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkWhetherid" duration-ms="47" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWhetherid -->
+        <test-method status="PASS" signature="checkWhetherDesc()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkWhetherDesc" duration-ms="63" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWhetherDesc -->
+        <test-method status="PASS" signature="checkWhetherIcon()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkWhetherIcon" duration-ms="62" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWhetherIcon -->
+        <test-method status="PASS" signature="checkMainTemp()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkMainTemp" duration-ms="63" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMainTemp -->
+        <test-method status="PASS" signature="checkMainPressure()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkMainPressure" duration-ms="47" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMainPressure -->
+        <test-method status="PASS" signature="checkMainHumidity()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkMainHumidity" duration-ms="47" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMainHumidity -->
+        <test-method status="PASS" signature="checkMainTempMin()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkMainTempMin" duration-ms="62" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMainTempMin -->
+        <test-method status="PASS" signature="checkMainTempMax()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkMainTempMax" duration-ms="47" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMainTempMax -->
+        <test-method status="PASS" signature="checkWindSpeed()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkWindSpeed" duration-ms="63" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWindSpeed -->
+        <test-method status="PASS" signature="checkWindDeg()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkWindDeg" duration-ms="47" started-at="2020-01-05T21:31:33Z" finished-at="2020-01-05T21:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWindDeg -->
+        <test-method status="PASS" signature="checkCloudsAll()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkCloudsAll" duration-ms="47" started-at="2020-01-05T21:31:34Z" finished-at="2020-01-05T21:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCloudsAll -->
+        <test-method status="PASS" signature="checkSysType()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkSysType" duration-ms="62" started-at="2020-01-05T21:31:34Z" finished-at="2020-01-05T21:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSysType -->
+        <test-method status="PASS" signature="checkSysId()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkSysId" duration-ms="63" started-at="2020-01-05T21:31:34Z" finished-at="2020-01-05T21:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSysId -->
+        <test-method status="PASS" signature="checkSysMessage()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkSysMessage" duration-ms="70" started-at="2020-01-05T21:31:34Z" finished-at="2020-01-05T21:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSysMessage -->
+        <test-method status="PASS" signature="checkSysCountry()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkSysCountry" duration-ms="78" started-at="2020-01-05T21:31:34Z" finished-at="2020-01-05T21:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSysCountry -->
+        <test-method status="PASS" signature="checkSysSunrise()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkSysSunrise" duration-ms="47" started-at="2020-01-05T21:31:34Z" finished-at="2020-01-05T21:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSysSunrise -->
+        <test-method status="PASS" signature="checkSysSunset()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkSysSunset" duration-ms="47" started-at="2020-01-05T21:31:34Z" finished-at="2020-01-05T21:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSysSunset -->
+        <test-method status="FAIL" signature="checkNewYorkUrl()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="checkNewYorkUrl" duration-ms="984" started-at="2020-01-05T21:31:34Z" finished-at="2020-01-05T21:31:35Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path name doesn't match.
+Expected: is "New york"
+  Actual: London
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path name doesn't match.
+Expected: is "New york"
+  Actual: London
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at sandhya_restassured.sandhya_restassured.WeatherServicesTest.checkNewYorkUrl(WeatherServicesTest.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNewYorkUrl -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:sandhya_restassured.sandhya_restassured.WeatherServicesTest@ae45eb6]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-01-05T21:31:36Z" finished-at="2020-01-05T21:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- sandhya_restassured.sandhya_restassured.WeatherServicesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
